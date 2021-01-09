@@ -177,3 +177,46 @@ h1,h2,h3,h4,h5,h6 {
         width: inherit;
     }
 }
+
+/* Feature CSS */
+.feature-text {
+    .media {
+        max-width: 480px;
+        position: relative;
+
+        i {
+            background: #ffecef;
+            color: $red-color;
+            width: 80px;
+            height: 80px;
+            font-size: 50px;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 80px;
+            position: absolute;
+        }
+
+        .media-body {
+            padding-left: 100px;
+            margin-bottom: 60px;
+        }
+    }
+}
+.feature-img {
+    position: relative;
+    max-width: 450px;
+    text-align: center;
+
+    &::before {
+        position: absolute;
+        content: url(../img/feature-pattern.png);
+        width: 525px;
+        top: 20%;
+        left: 0;
+        z-index: -1;
+        right: 0;
+        margin: auto;
+    }
+}
+
+/* Smart Jackpot CSS */

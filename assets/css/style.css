@@ -166,4 +166,46 @@ h1, h2, h3, h4, h5, h6 {
 .company-section .owl-carousel .owl-item img {
   width: inherit;
 }
+
+/* Feature CSS */
+.feature-text .media {
+  max-width: 480px;
+  position: relative;
+}
+
+.feature-text .media i {
+  background: #ffecef;
+  color: #f55767;
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 80px;
+  position: absolute;
+}
+
+.feature-text .media .media-body {
+  padding-left: 100px;
+  margin-bottom: 60px;
+}
+
+.feature-img {
+  position: relative;
+  max-width: 450px;
+  text-align: center;
+}
+
+.feature-img::before {
+  position: absolute;
+  content: url(../img/feature-pattern.png);
+  width: 525px;
+  top: 20%;
+  left: 0;
+  z-index: -1;
+  right: 0;
+  margin: auto;
+}
+
+/* Smart Jacp*/
 /*# sourceMappingURL=style.css.map */
