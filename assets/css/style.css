@@ -55,8 +55,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title {
-  max-width: 500px;
   margin-bottom: 60px;
+  max-width: 500px;
 }
 
 .section-title h2 {
@@ -207,5 +207,80 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
-/* Smart Jacp*/
+/* Smart Jackpot CSS */
+.smart-section h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-right: 30px;
+  position: relative;
+}
+
+.smart-section h2::before {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 100%;
+  right: -40px;
+  top: 0;
+  background: #b9b9b8;
+}
+
+.smart-section .top-text {
+  margin-bottom: 0;
+  margin-left: 40px;
+}
+
+.smart-section .mb-70 {
+  margin-bottom: 70px;
+}
+
+.smart-card {
+  margin-bottom: 30px;
+}
+
+.smart-card i {
+  font-size: 50px;
+  color: #f55767;
+  background: #f557672b;
+  margin-bottom: 40px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 80px;
+  text-align: center;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.smart-card h4 {
+  color: #f55767;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.smart-card p {
+  margin-bottom: 0;
+  max-width: 300px;
+}
+
+.smart-card:hover h4, .smart-card:hover i {
+  color: #2563ff;
+}
+
+.smart-card:hover i {
+  background: #2563ff2b;
+}
+
+/* Why Choose CSS */
+.why-choose .section-title {
+  margin: 0 auto 50px;
+}
+
+.why-choose .section-title p {
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */

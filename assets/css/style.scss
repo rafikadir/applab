@@ -59,8 +59,8 @@ h1,h2,h3,h4,h5,h6 {
     padding-bottom: 70px;
 }
 .section-title {
-    max-width: 500px;
     margin-bottom: 60px;
+    max-width: 500px;
 
     h2 {
         font-size: 36px;
@@ -220,3 +220,80 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Smart Jackpot CSS */
+.smart-section {
+    h2 {    
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 0;    
+        margin-right: 30px;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            width: 2px;
+            height: 100%;
+            right: -40px;
+            top: 0;
+            background: #b9b9b8;
+        }
+    }
+
+    .top-text {
+        margin-bottom: 0;
+        margin-left: 40px;
+    }
+
+    .mb-70 {
+        margin-bottom: 70px;
+    }
+}
+
+.smart-card {
+    margin-bottom: 30px;
+    
+    i {
+        font-size: 50px;
+        color: $red-color;
+        background: #f557672b;
+        margin-bottom: 40px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 80px;
+        text-align: center;
+        transition: .5s;
+    }
+
+    h4 {
+        color: $red-color;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        transition: .5s;
+    }
+
+    p{
+        margin-bottom: 0;
+        max-width: 300px;
+    }
+
+    &:hover h4, &:hover i {
+        color: #2563ff;
+    }
+
+    &:hover i {
+        background: #2563ff2b;
+    }
+}
+
+/* Why Choose CSS */
+.why-choose {
+    .section-title {
+        margin: 0 auto 50px;
+
+        p {
+            margin: auto;
+        }
+    }
+}
