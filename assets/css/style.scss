@@ -6,6 +6,174 @@
 ==========================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* Common CSS */
+/* Font CSS */
 $font-family:'Poppins', sans-serif;
- 
+
+/* Color CSS */
+$body-color: #616368;
+$heading-color: #242f51;
+$btn-bg:#2500f9;
+$white-color: #ffffff;
+$red-color: #f55767;
+
+/* Common CSS */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: $font-family;
+    color: $body-color;
+}
+
+p {
+    color:$body-color;
+    font-size: 16px;
+}
+.main-btn {
+    a {
+        background: $btn-bg;
+        color: $white-color;
+        background: #2500f9;
+        color: $white-color;
+        padding: 15px 40px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: .5s;
+        display: inline-block;
+
+        &:hover {
+            background: $red-color;
+        }   
+    }
+}
+h1,h2,h3,h4,h5,h6 {
+    color: $heading-color;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+.section-title {
+    max-width: 500px;
+    margin-bottom: 60px;
+
+    h2 {
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+}
+
+/* Navbar CSS */
+.main-menu {
+    padding: 15px 0;
+    background: $white-color;
+
+        .navbar {
+            padding: 0;
+
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: $heading-color;
+                    font-size: 17px;
+                    font-weight: 500;
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+
+    .main-btn a {
+        margin-left: 30px;
+    }
+}
+.is-sticky {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 999;
+    animation: 0.5s ease-in-out fadeInDown;
+    box-shadow: 0 11px 61.1px 3.9px rgba(34,34,34,.09);
+}
+
+/* Banner CSS */
+.banner-section {
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+
+    .banner-text {
+        h6 {
+            background: #e2eaed;
+            color: $heading-color;
+            font-size: 18px;
+            display: inline-block;
+            padding: 10px 30px 10px 50px;
+            border-radius: 20px;
+            position: relative;
+            margin-bottom: 20px;
+
+            i {
+                color: $white-color;
+                font-size: 20px;
+                position: absolute;
+                left: 0px;
+                background: #feaa25;
+                border-radius: 30px;
+                padding: 10px;
+                top: 0;
+            }
+        }
+
+        h1 {
+            font-size: 60px;
+            font-weight: 600;
+            color: $heading-color;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            max-width: 500px;
+        }
+
+        .main-btn {
+            :nth-child(2) {
+                background: transparent;
+                color: $btn-bg;
+            }
+        }
+    }
+
+    .banner-btm img {
+        width: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+/* Company CSS */
+.company-section {
+    p {
+        text-align: center;
+        color: $heading-color;
+        font-weight: 500;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: inherit;
+    }
+}

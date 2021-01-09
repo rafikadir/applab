@@ -5,5 +5,165 @@
 - PSD to HTML convertion
 ==========================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/* Font CSS */
+/* Color CSS */
 /* Common CSS */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #616368;
+}
+
+p {
+  color: #616368;
+  font-size: 16px;
+}
+
+.main-btn a {
+  background: #2500f9;
+  color: #ffffff;
+  background: #2500f9;
+  color: #ffffff;
+  padding: 15px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+}
+
+.main-btn a:hover {
+  background: #f55767;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #242f51;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.section-title {
+  max-width: 500px;
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Navbar CSS */
+.main-menu {
+  padding: 15px 0;
+  background: #ffffff;
+}
+
+.main-menu .navbar {
+  padding: 0;
+}
+
+.main-menu .navbar .navbar-nav .nav-item .nav-link {
+  color: #242f51;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.main-menu .main-btn a {
+  margin-left: 30px;
+}
+
+.is-sticky {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 999;
+  -webkit-animation: 0.5s ease-in-out fadeInDown;
+          animation: 0.5s ease-in-out fadeInDown;
+  -webkit-box-shadow: 0 11px 61.1px 3.9px rgba(34, 34, 34, 0.09);
+          box-shadow: 0 11px 61.1px 3.9px rgba(34, 34, 34, 0.09);
+}
+
+/* Banner CSS */
+.banner-section {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+}
+
+.banner-section .banner-text h6 {
+  background: #e2eaed;
+  color: #242f51;
+  font-size: 18px;
+  display: inline-block;
+  padding: 10px 30px 10px 50px;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.banner-section .banner-text h6 i {
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  left: 0px;
+  background: #feaa25;
+  border-radius: 30px;
+  padding: 10px;
+  top: 0;
+}
+
+.banner-section .banner-text h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #242f51;
+  margin-bottom: 30px;
+}
+
+.banner-section .banner-text p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+.banner-section .banner-text .main-btn :nth-child(2) {
+  background: transparent;
+  color: #2500f9;
+}
+
+.banner-section .banner-btm img {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* Company CSS */
+.company-section p {
+  text-align: center;
+  color: #242f51;
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.company-section .owl-carousel .owl-item img {
+  width: inherit;
+}
 /*# sourceMappingURL=style.css.map */
