@@ -283,4 +283,112 @@ h1, h2, h3, h4, h5, h6 {
 .why-choose .section-title p {
   margin: auto;
 }
+
+.choose-box {
+  margin-bottom: 30px;
+}
+
+.choose-box i {
+  color: #000000;
+  background: #ecdfe1;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50px;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.choose-box h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.choose-box p {
+  margin-bottom: 0;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* Pricing CSS */
+.pricing-section .section-title {
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.pricing-area {
+  text-align: center;
+}
+
+.pricing-area .nav-tabs {
+  border: 0px solid #bec0c5;
+  padding: 5px;
+  border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 50px;
+  display: inherit;
+}
+
+.pricing-area .nav-tabs .nav-item {
+  display: inline-block;
+}
+
+.pricing-area .nav-tabs .nav-item .nav-link {
+  font-weight: 500;
+}
+
+.pricing-area .nav-tabs .nav-item .nav-link.active {
+  border-radius: 30px;
+  padding: 15px 30px;
+  background: #2500f9;
+  color: #ffffff;
+  border: 0;
+}
+
+.pricing-area .nav-tabs .nav-item .nav-link:hover {
+  border: 0;
+}
+
+.pricing-area .price-card {
+  -webkit-box-shadow: 0 2px 20px #0000003b;
+          box-shadow: 0 2px 20px #0000003b;
+  margin-bottom: 30px;
+  padding: 35px;
+  border-radius: 10px;
+}
+
+.pricing-area .price-card .price h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.pricing-area .price-card .price h1 span {
+  font-size: 18px;
+  color: #616368;
+  font-weight: 400;
+}
+
+.pricing-area .price-card .price h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.pricing-area .price-card .price p {
+  color: #999ca5;
+}
+
+.pricing-area .price-card .price-fetaure ul {
+  padding: 0;
+  margin: 35px 0;
+}
+
+.pricing-area .price-card .price-fetaure ul li {
+  list-style: none;
+  color: #999ca5;
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=style.css.map */

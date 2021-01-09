@@ -297,3 +297,114 @@ h1,h2,h3,h4,h5,h6 {
         }
     }
 }
+
+.choose-box {
+    margin-bottom: 30px;
+
+    i {
+        color: #000000;
+        background: #ecdfe1;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 50px;
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 0;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+/* Pricing CSS */
+.pricing-section {
+    .section-title {
+        margin: 0 auto 50px;
+        text-align: center;
+    }
+}
+
+.pricing-area {
+    text-align: center;
+
+    .nav-tabs {
+        border: 0px solid #bec0c5;
+        padding: 5px;
+        border-radius: 30px;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 50px;
+        display: inherit;
+
+        .nav-item {
+            display: inline-block;
+
+            .nav-link {
+                font-weight: 500;
+
+                &.active {
+                    border-radius: 30px;
+                    padding: 15px 30px;
+                    background: $btn-bg;
+                    color: $white-color;
+                    border: 0;
+                }
+    
+                &:hover {
+                    border: 0;
+                }
+            }
+        }
+    }
+
+    .price-card {
+        box-shadow: 0 2px 20px #0000003b;
+        margin-bottom: 30px;
+        padding: 35px;
+        border-radius: 10px;
+
+        .price {
+            h1 {
+                font-size: 60px;
+                font-weight: 700;
+                margin-bottom: 16px;
+
+                span {
+                    font-size: 18px;
+                    color: $body-color;
+                    font-weight: 400;
+                }
+            }
+
+            h4 {
+                font-size: 22px;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+
+            p {
+                color: #999ca5;
+            }
+        }
+        .price-fetaure {
+            ul {        
+                padding: 0;
+                margin: 35px 0;
+
+                li {
+                    list-style: none;
+                    color: #999ca5;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
