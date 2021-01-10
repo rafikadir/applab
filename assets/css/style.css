@@ -391,4 +391,209 @@ h1, h2, h3, h4, h5, h6 {
   color: #999ca5;
   margin-bottom: 20px;
 }
+
+/* Feedback CSS */
+.feedback-text .rating i {
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+.feedback-text h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.feedback-text p {
+  font-weight: 500;
+  margin-bottom: 30px;
+  max-width: 550px;
+}
+
+.feedback-text .media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feedback-text .media img {
+  width: inherit;
+  max-width: 100px;
+}
+
+.feedback-text .media .media-body {
+  margin-left: 25px;
+  padding: 20px 0;
+}
+
+.feedback-text .media .media-body h5 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.feedback-text .media .media-body p {
+  font-weight: 500;
+}
+
+.feedback-img {
+  position: relative;
+}
+
+.feedback-img .inner-img img {
+  position: absolute;
+}
+
+.feedback-img .inner-img img:nth-child(1) {
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.feedback-img .inner-img img:nth-child(2) {
+  top: 20px;
+  left: 20px;
+}
+
+.feedback-img .inner-img img:nth-child(3) {
+  right: 25%;
+  top: 100px;
+}
+
+.feedback-img .inner-img img:nth-child(4) {
+  bottom: 15%;
+  right: 20%;
+}
+
+.feedback-img .inner-img img:nth-child(5) {
+  bottom: 10%;
+  left: 17%;
+}
+
+.feedback-slider {
+  position: relative;
+}
+
+.feedback-slider .owl-nav {
+  margin-top: 0 !important;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  bottom: 0;
+}
+
+.feedback-slider .owl-nav .owl-prev:hover, .feedback-slider .owl-nav .owl-next:hover {
+  background: transparent !important;
+}
+
+.feedback-slider .owl-nav .owl-prev:focus, .feedback-slider .owl-nav .owl-next:focus {
+  outline: none;
+}
+
+.feedback-slider .owl-nav .owl-prev span, .feedback-slider .owl-nav .owl-next span {
+  color: #dee1e6;
+  font-size: 35px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  line-height: 35px;
+  margin: 0 5px;
+  border-radius: 25px;
+  display: inline-block;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.feedback-slider .owl-nav .owl-prev span:hover, .feedback-slider .owl-nav .owl-next span:hover {
+  color: #2500f9;
+  background: #dee1e6;
+  border: 1px solid transparent;
+}
+
+/* Faq CSS */
+.faq-section .section-title {
+  margin: 0 auto 40px;
+  max-width: 550px;
+}
+
+.faq-heading {
+  font-weight: 500;
+  font-size: 20px;
+  color: #242f51;
+  margin-bottom: 0;
+  margin-bottom: 0px;
+  padding: 15px 45px;
+}
+
+.faq-text {
+  font-size: 16px;
+  color: #616368;
+  padding: 15px 45px;
+}
+
+.faq {
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 4px;
+  position: relative;
+}
+
+.faq label {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 56px;
+  padding-top: 1px;
+}
+
+.faq input[type="checkbox"] {
+  display: none;
+}
+
+.faq .faq-arrow {
+  width: 5px;
+  height: 5px;
+  transition: -webkit-transform 0.8s;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  border-top: 2px solid rgba(0, 0, 0, 0.33);
+  border-right: 2px solid rgba(0, 0, 0, 0.33);
+  float: right;
+  position: relative;
+  top: -30px;
+  right: 27px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.faq input[type="checkbox"]:checked + label > .faq-arrow {
+  transition: -webkit-transform 0.8s;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.faq input[type="checkbox"]:checked + label {
+  display: block;
+  background: #f5f7fa !important;
+  margin-bottom: 10px;
+  color: #4f7351;
+  height: 225px;
+  -webkit-transition: height 0.8s;
+  transition: height 0.8s;
+}
+
+.faq input[type='checkbox']:not(:checked) + label {
+  display: block;
+  -webkit-transition: height 0.8s;
+  transition: height 0.8s;
+  height: 60px;
+  background: #f5f7fa;
+  margin-bottom: 10px;
+}
 /*# sourceMappingURL=style.css.map */

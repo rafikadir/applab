@@ -45,4 +45,17 @@ jQuery(function($){
             }
         }
     })
+
+    //Feedback Slider
+    $('.feedback-slider').owlCarousel({
+        loop:true,
+        nav:true,
+        dots: false,
+        autoplay: false,
+        margin:20,
+        autoplayTimeout: 1500,
+        autoplayHoverPause: true,
+        smartSpeed:800,
+        items:1
+    })
 });

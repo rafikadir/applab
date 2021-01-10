@@ -408,3 +408,199 @@ h1,h2,h3,h4,h5,h6 {
         }
     }
 }
+/* Feedback CSS */
+.feedback-text {
+    .rating {
+        i {
+            color: #ffcc00;
+            margin-bottom: 20px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-weight: 500;
+        margin-bottom: 30px;
+        max-width: 550px;
+    }
+
+    .media {
+        display: flex;
+
+        img {
+            width: inherit;
+            max-width: 100px;
+        }
+
+        .media-body {
+            margin-left: 25px;
+             padding: 20px 0;
+
+            h5 {
+                margin-bottom: 10px;
+                font-weight: 600;
+            }
+
+            p {
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.feedback-img {
+    position: relative;
+
+    .inner-img img {
+        position: absolute;
+
+        &:nth-child(1) {
+            top: 25%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        &:nth-child(2){
+            top: 20px;
+            left: 20px;
+        }
+        &:nth-child(3){
+            right: 25%;
+            top: 100px;
+        }
+        &:nth-child(4) {
+            bottom: 15%;
+            right: 20%;
+        }
+        &:nth-child(5) {
+            bottom: 10%;
+            left: 17%;
+        }
+    }
+}
+
+.feedback-slider {
+    position: relative;
+    .owl-nav {
+        margin-top: 0 !important;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        bottom: 0;
+
+        .owl-prev, .owl-next {
+            &:hover {
+                background: transparent !important;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+        
+        .owl-prev span, .owl-next span {
+            color: #dee1e6;
+            font-size: 35px;
+            width: 40px;
+            height: 40px;
+            border: 1px solid;
+            line-height: 35px;
+            margin: 0 5px;
+            border-radius: 25px;
+            display: inline-block;
+            transition: .5s;
+
+            &:hover {
+                color: $btn-bg;
+                background: #dee1e6;
+                border: 1px solid transparent;
+            }
+        }
+    }
+}
+
+/* Faq CSS */
+.faq-section {
+    .section-title {
+        margin:0 auto 40px;
+        max-width: 550px;
+    }
+}
+
+.faq-heading {
+    font-weight: 500;
+    font-size: 20px;
+    color: $heading-color;
+    margin-bottom: 0;
+    margin-bottom: 0px;
+    padding: 15px 45px;
+}
+  
+.faq-text {
+    font-size: 16px;
+    color: #616368;
+    padding: 15px 45px;
+}
+  
+.faq {
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 4px;
+    position: relative;
+}
+.faq label {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 56px;
+    padding-top:1px;
+}
+  
+.faq input[type="checkbox"] {
+    display: none;
+}
+  
+.faq .faq-arrow {
+    width: 5px;
+    height: 5px;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    border-top: 2px solid rgba(0, 0, 0, 0.33);
+    border-right: 2px solid rgba(0, 0, 0, 0.33);
+    float: right;
+    position: relative;
+    top: -30px;
+    right: 27px;
+    transform: rotate(45deg);
+}
+  
+.faq input[type="checkbox"]:checked + label > .faq-arrow {
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    transform: rotate(135deg);
+}
+.faq input[type="checkbox"]:checked + label {
+    display: block;
+    background: #f5f7fa !important;
+    margin-bottom: 10px;
+    color: #4f7351;
+    height: 225px;
+    transition: height 0.8s;
+}
+  
+.faq input[type='checkbox']:not(:checked) + label {
+    display: block;
+    transition: height 0.8s;
+    height: 60px;
+    background: #f5f7fa;
+    margin-bottom: 10px;
+}
+ 
