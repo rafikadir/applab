@@ -38,6 +38,10 @@ p {
   background: #f55767;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #242f51;
 }
@@ -63,6 +67,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 15px;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Navbar CSS */
@@ -553,14 +561,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .faq .faq-arrow {
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   transition: -webkit-transform 0.8s;
   -webkit-transition: -webkit-transform 0.8s;
   transition: transform 0.8s;
   transition: transform 0.8s, -webkit-transform 0.8s;
-  border-top: 2px solid rgba(0, 0, 0, 0.33);
-  border-right: 2px solid rgba(0, 0, 0, 0.33);
+  border-top: 2px solid rgba(0, 0, 0, 0.75);
+  border-right: 2px solid rgba(0, 0, 0, 0.75);
   float: right;
   position: relative;
   top: -30px;
@@ -595,5 +603,54 @@ h1, h2, h3, h4, h5, h6 {
   height: 60px;
   background: #f5f7fa;
   margin-bottom: 10px;
+}
+
+/* Apps Section */
+.apps-section {
+  border-top: 1px solid #e5e9ef;
+}
+
+.apps-section .apps-img {
+  width: 100%;
+}
+
+/* Footer CSS */
+.footer {
+  background: #09142e;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.footer img {
+  margin-bottom: 30px;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer .social-link {
+  margin-bottom: 30px;
+}
+
+.footer .social-link i {
+  color: #273043;
+  font-size: 30px;
+}
+
+.footer P {
+  margin-bottom: 0;
+}
+
+.footer P a {
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

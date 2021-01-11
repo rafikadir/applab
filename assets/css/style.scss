@@ -46,6 +46,9 @@ p {
         }   
     }
 }
+a {
+    text-decoration: none;
+}
 h1,h2,h3,h4,h5,h6 {
     color: $heading-color;
 }
@@ -68,7 +71,9 @@ h1,h2,h3,h4,h5,h6 {
         margin-bottom: 15px;
     }
 }
-
+img {
+    max-width: 100%;
+}
 /* Navbar CSS */
 .main-menu {
     padding: 15px 0;
@@ -568,12 +573,12 @@ h1,h2,h3,h4,h5,h6 {
 }
   
 .faq .faq-arrow {
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
     transition: -webkit-transform 0.8s;
     transition: transform 0.8s;
-    border-top: 2px solid rgba(0, 0, 0, 0.33);
-    border-right: 2px solid rgba(0, 0, 0, 0.33);
+    border-top: 2px solid rgba(0, 0, 0, 0.75);
+    border-right: 2px solid rgba(0, 0, 0, 0.75);
     float: right;
     position: relative;
     top: -30px;
@@ -603,4 +608,53 @@ h1,h2,h3,h4,h5,h6 {
     background: #f5f7fa;
     margin-bottom: 10px;
 }
- 
+
+/* Apps Section */
+.apps-section {
+    border-top: 1px solid #e5e9ef;
+
+    .apps-img {
+        width: 100%;
+    }
+}
+/* Footer CSS */
+.footer {
+    background: #09142e;
+    text-align: center;
+    padding: 80px 0;
+
+    img {
+        margin-bottom: 30px;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            display: inline-block;
+            margin-bottom: 30px;
+            
+            a {
+                color: $white-color;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+        }
+    }
+
+    .social-link {
+        margin-bottom: 30px;
+
+        i {
+            color: #273043;
+            font-size: 30px;
+        }
+    }
+
+    P {
+        margin-bottom: 0; 
+
+        a {
+            color: $white-color;
+        }
+    }
+}
