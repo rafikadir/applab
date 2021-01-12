@@ -217,15 +217,13 @@ img {
     max-width: 450px;
     text-align: center;
 
-    &::before {
+    .feature-ptn img {
         position: absolute;
-        content: url(../img/feature-pattern.png);
-        width: 525px;
         top: 20%;
-        left: 0;
         z-index: -1;
         right: 0;
-        margin: auto;
+        left: 0;
+        margin: auto
     }
 }
 
