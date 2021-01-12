@@ -64,9 +64,6 @@ jQuery(function($){
         items:1
     })
 
-    // WO JS
-    wow.init();
-
 
     // Go to Top JS
     $(window).on('scroll', function() {
@@ -78,4 +75,7 @@ jQuery(function($){
     $('.back-top').on('click', function() {
         $("html, body").animate({ scrollTop: "0" },  500);
     });
+
+    // WOW JS
+    new WOW().init();
 });
