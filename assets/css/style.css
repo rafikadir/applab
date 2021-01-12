@@ -90,6 +90,10 @@ img {
   margin: 0 10px;
 }
 
+.main-menu .navbar .navbar-nav .nav-item .nav-link.active {
+  color: #f55767;
+}
+
 .main-menu .main-btn a {
   margin-left: 30px;
 }
@@ -189,8 +193,9 @@ img {
   font-size: 50px;
   border-radius: 50px;
   text-align: center;
-  line-height: 80px;
+  line-height: 75px;
   position: absolute;
+  display: inline-block;
 }
 
 .feature-text .media .media-body {
@@ -259,6 +264,7 @@ img {
   text-align: center;
   -webkit-transition: .5s;
   transition: .5s;
+  display: inline-block;
 }
 
 .smart-card h4 {
@@ -305,6 +311,7 @@ img {
   border-radius: 50px;
   font-size: 50px;
   margin-bottom: 30px;
+  display: inline-block;
 }
 
 .choose-box h4 {
@@ -541,7 +548,7 @@ img {
 }
 
 .faq {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   border-radius: 4px;
   position: relative;
@@ -652,5 +659,34 @@ img {
 
 .footer P a {
   color: #ffffff;
+}
+
+.back-top {
+  position: fixed;
+  cursor: pointer;
+  bottom: -100px;
+  right: 20px;
+  color: #ffffff;
+  background-color: #2500f9;
+  z-index: 4;
+  width: 45px;
+  text-align: center;
+  height: 45px;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 50%;
+  font-size: 22px;
+  -webkit-transition: .9s;
+  transition: .9s;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  line-height: 45px;
+}
+
+.back-top.active {
+  opacity: 1;
+  visibility: visible;
+  bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
