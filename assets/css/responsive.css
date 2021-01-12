@@ -206,8 +206,65 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .main-menu .main-btn a {
+    margin-left: 0;
+  }
+  .main-btn a {
+    font-size: 15px;
+    padding: 10px 25px;
+  }
+  .section-title h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
   .banner-section {
     height: 100%;
+    padding: 70px 0;
+    text-align: center;
+  }
+  .banner-section .banner-btm img {
+    right: 0;
+    left: 0;
+  }
+  .feature-img {
+    margin: 0 auto 30px;
+  }
+  .smart-section {
+    padding-top: 0;
+  }
+  .smart-section h2 {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  .smart-section h2::before {
+    display: none;
+  }
+  .smart-section .top-text {
+    text-align: center;
+    margin-left: 0;
+  }
+  .feedback-text {
+    padding: 0 30px;
+  }
+  .apps-section .section-title h2 {
+    font-size: 25px;
+  }
+  .apps-section a img {
+    max-width: 130px;
+  }
+  .footer {
+    padding: 40px 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .main-btn a {
+    padding: 10px 30px;
+  }
+  .feedback-slider .owl-nav {
+    left: inherit;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

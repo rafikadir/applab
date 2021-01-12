@@ -33,7 +33,7 @@ jQuery(function($){
         loop:true,
         nav:false,
         dots: false,
-        autoplay: false,
+        autoplay: true,
         margin:20,
         autoplayTimeout: 1500,
         autoplayHoverPause: true,
@@ -56,13 +56,17 @@ jQuery(function($){
         loop:true,
         nav:true,
         dots: false,
-        autoplay: false,
+        autoplay: true,
         margin:20,
         autoplayTimeout: 1500,
         autoplayHoverPause: true,
         smartSpeed:800,
         items:1
     })
+
+    // WO JS
+    wow.init();
+
 
     // Go to Top JS
     $(window).on('scroll', function() {
